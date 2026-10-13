@@ -1,0 +1,12 @@
+git config --global user.name "Andrew" // create username
+git config --global user.email "andrewayman15@gmail.com"  // create email
+git config --global init.defaultBranch main // rename the master to main node
+git config --global core.editor "code --wait" // use vs code when I add text
+git config --list // list all git commands
+git init // initialize the repo
+git add . // add the work copy to the staging area
+git commit -m"first commit"  // snapshot the staging area
+git commit -am"Create cv file" // snapshot & add to staging area
+git log --oneline // show the log file
+git commit --amend -m "create cv file" // amend the commit 
+git reset --hard HEAD~1
